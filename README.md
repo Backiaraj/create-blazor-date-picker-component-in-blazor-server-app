@@ -1,25 +1,49 @@
-# Create Blazor DatePicker Component in Blazor Server App
+# Blazor DatePicker Component in Blazor Server App
 
-Blazor Server App that allows you to configure the [Blazor DatePicker](https://www.syncfusion.com/blazor-components/blazor-datepicker) component from Syncfusion with its available options. This project contains simple code customizations, as well as some important features such as setting specific date values, formats and navigating between different views such as month, year, and decade.
+A Blazor Server application demonstrating how to configure and use the [Blazor DatePicker](https://www.syncfusion.com/blazor-components/blazor-datepicker) component with various customization options and features.
+
+## Overview
+
+This sample application provides a complete example of integrating the Blazor DatePicker component into a Blazor Server application. It demonstrates how to configure the component's properties, set date constraints, and implement common date-picking scenarios. The project is built with .NET 10.0 and uses the latest Blazor libraries for calendars and themes.
+
+## Features
+
+- **DatePicker Component Integration**: Complete setup and configuration of the Blazor DatePicker component
+- **Date Range Constraints**: Set minimum and maximum date values to restrict user selection
+- **Configurable Date Values**: Initialize and manage selected dates programmatically
+- **Multiple View Modes**: Navigate through month, year, and decade views
+- **Responsive Design**: Built-in styling for responsive date picker display
 
 ## Prerequisites
 
-* Visual Studio 2022 or later
-* Visual Studio Code
+* [.NET SDK 10.0](https://dotnet.microsoft.com/en-us/download/dotnet/10.0) or later
+* [Visual Studio 2022](https://visualstudio.microsoft.com/vs/) or later
+* [Visual Studio Code](https://code.visualstudio.com/)
 
-## How to run the project
+## Getting Started
 
-1. Clone or download this repository to a location in your system.
-2. Open the solution file using the Visual Studio or Visual Studio code.
-3. Restore the NuGet packages by rebuilding the solution or run `dotnet restore`.
-4. Build the project to ensure there are no compilation errors.
-5. Run the project.
+### Clone the repository
 
-Optional CLI Commands:
+```bash
+git clone https://github.com/SyncfusionExamples/create-blazor-date-picker-component-in-blazor-server-app.git
+cd create-blazor-date-picker-component-in-blazor-server-app
+```
 
-```powershell
+### Run with Visual Studio
+
+1. Open the solution file using Visual Studio 2022 or later.
+2. Restore the NuGet packages by rebuilding the solution.
+3. Build the project to ensure there are no compilation errors.
+4. Run the project.
+
+### Run with .NET CLI
+
+```bash
+# Restore dependencies
 dotnet restore
-dotnet build
+
+# Run the project
+dotnet run
 ```
 
 ## References
